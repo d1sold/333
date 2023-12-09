@@ -8,21 +8,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/math_operation"
         android:layout_width="match_parent"
         android:layout_height="80sp"
-        android:textColor="@color/black"
+        android:textColor="@color/secondary_action"
         android:gravity="end"
         android:ellipsize="start"
         android:textSize="40sp"
         android:singleLine="true"
         />
-    <TextView
-        android:id="@+id/result_rext"
+    <EditText
+        android:id="@+id/result_text"
         android:layout_width="match_parent"
         android:layout_height="100sp"
-        android:textColor="@color/black"
+        android:textColor="@color/secondary_action"
         android:gravity="end"
         android:ellipsize="end"
         android:textSize="30sp"
@@ -60,7 +60,7 @@
 
             <TextView
                 style="@style/ActionButton"
-                android:id="@+id/razdelit_btn"
+                android:id="@+id/devision_btn"
                 android:text="@string/_razdelit">
             </TextView>
 
@@ -188,6 +188,7 @@
 
             <TextView
                 style="@style/ActionButton"
+                android:id="@+id/ravno_btn"
                 android:text="@string/_ravno">
             </TextView>
 
